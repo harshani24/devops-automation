@@ -24,7 +24,7 @@ pipeline {
                     withCredentials([string(credentialsId: 'dockerh-pwd', variable: 'dockerpwd')]) {
                         bat "docker login -u harshani24 -p %dockerpwd%"
                     }
-                    bat 'docker push devops-automation'
+                    bat 'docker push harshani24/devops-automation'
                 }
             }
         }
