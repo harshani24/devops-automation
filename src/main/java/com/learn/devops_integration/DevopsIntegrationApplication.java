@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "DevOps Integration Learning";
+		return "DevOps Integration Learning!!!";
 	}
 
 	@GetMapping("/hi")
