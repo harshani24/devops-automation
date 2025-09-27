@@ -11,6 +11,11 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
+		return "DevOps Integration Learning";
+	}
+
+	@GetMapping("/hi")
+	public String welcome(){
 		return "Welcome to DevOps Integration Learning";
 	}
 
